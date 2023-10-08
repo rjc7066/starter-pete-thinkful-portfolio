@@ -19,6 +19,19 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  text-wrap: nowrap;
+}
+
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+
+.flex-box-lg {
+  flex: 4;
+}
+.flex-box-sm {
+  flex: 1;
 }
 
 /* Containers */
@@ -35,6 +48,15 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+.article-text {
+  text-align: left;
+
+}
+
+.portfolio-text {
+  font-size: 14px;
 }
 
 /* Paragraphs */
